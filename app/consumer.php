@@ -3,7 +3,7 @@
 require_once '../src/QueueManager.php';
 
 // Define some variables
-$waitSeconds = 0;
+$waitSeconds = 5;
 
 // Settings
 $timeLimitHours = 1;

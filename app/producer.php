@@ -4,7 +4,7 @@ require_once '../src/QueueManager.php';
 
 // Define some variables
 $queueUrl = 'https://sqs.us-east-1.amazonaws.com/330312668718/Problem8Queue';
-$waitSeconds = 5;
+$waitSeconds = 1;
 
 // Settings
 $timeLimitHours = 1;
