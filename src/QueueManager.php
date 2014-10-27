@@ -15,11 +15,19 @@ class QueueManager{
     }
 
     // Return the SQS client
-    public function getSqsClient()
+    protected function getSqsClient()
     {
         $clientParams = array('region'  => 'us-east-1');
         $client = SqsClient::factory($clientParams);
         return $client;
+    }
+
+    // List queues
+    public function getQueues()
+    {
+        $queues = $this->sqsClient->listQueues();
+
+        return $queues;
     }
 
     // Create a queue, returns the queue URL

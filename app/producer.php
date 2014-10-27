@@ -20,7 +20,8 @@ try{
 
         $qm = new QueueManager(); // Get the QueueManager
         $response = $qm->sendMessage($queueUrl, $myMessage);
-        echo '.';
+        echo 'Message submitted. ';
+        flush();
 
         sleep($waitSeconds); // Sleep for a bit
     }
