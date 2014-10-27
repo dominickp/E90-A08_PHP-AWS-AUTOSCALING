@@ -17,7 +17,11 @@ class QueueManager{
     // Return the SQS client
     protected function getSqsClient()
     {
-        $clientParams = array('region'  => 'us-east-1');
+        $clientParams = array(
+            'region'  => 'us-east-1',
+            'key'    => 'AKIAIYIGEXE7FPVUD5XQ',
+            'secret' => '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',
+        );
         $client = SqsClient::factory($clientParams);
         return $client;
     }
