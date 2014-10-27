@@ -1,6 +1,6 @@
 <?php
 // Include my SQS QM
-require_once $_SERVER['DOCUMENT_ROOT']."/E90-A08_PHP-AWS-AUTOSCALING/".'src/QueueManager.php';
+require_once '/var/www/E90-A08_PHP-AWS-AUTOSCALING/src/QueueManager.php';
 
 // Define some variables
 $waitSeconds = 5;

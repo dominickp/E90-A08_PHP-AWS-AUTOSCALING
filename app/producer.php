@@ -1,6 +1,6 @@
 <?php
 // Include my SQS QM
-require_once $_SERVER['DOCUMENT_ROOT']."/E90-A08_PHP-AWS-AUTOSCALING/".'src/QueueManager.php';
+require_once '/var/www/E90-A08_PHP-AWS-AUTOSCALING/src/QueueManager.php';
 
 // Define some variables
 $queueUrl = 'https://sqs.us-east-1.amazonaws.com/330312668718/Problem8Queue';
