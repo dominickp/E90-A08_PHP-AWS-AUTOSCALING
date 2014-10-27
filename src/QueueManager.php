@@ -1,6 +1,6 @@
 <?php
 // Require AWS
-require '../vendor/autoload.php';
+require 'var/www/E90-A08_PHP-AWS-AUTOSCALING//vendor/autoload.php';
 
 use Aws\Sqs\SqsClient;
 
