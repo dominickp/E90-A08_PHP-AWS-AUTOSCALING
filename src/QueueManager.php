@@ -75,7 +75,8 @@ class QueueManager{
             'QueueUrl' => $queueUrl,
         ));
 
-        return $result->getPath('Messages')[0];
+        #return $result->getPath('Messages')[0];
+        return $result->getPath('Messages');
     }
 
     // Delete a message
