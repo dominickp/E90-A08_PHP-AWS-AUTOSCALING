@@ -23,7 +23,7 @@ try{
 
         #print_r($queues['QueueUrls']); die;
 
-        foreach($queues['QueueUrls'] as $queueUrl)
+        foreach($queues['QueueUrls'][0] as $queueUrl)
         {
             $messageResponse = $qm->receiveMessage($queueUrl);
 
