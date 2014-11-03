@@ -32,7 +32,7 @@ class QueueManager{
     {
         $queues = $this->sqsClient->listQueues();
 
-        return $queues;
+        return $queues[0];
     }
 
     // Create a queue, returns the queue URL

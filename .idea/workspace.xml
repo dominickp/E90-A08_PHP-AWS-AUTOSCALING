@@ -35,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QueueManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QueueManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1984">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26396495" vertical-offset="303" max-vertical-offset="1984">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consumer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="consumer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/consumer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49069002" vertical-offset="0" max-vertical-offset="913">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="880">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/producer.php" />
-        <option value="$PROJECT_DIR$/src/QueueManager.php" />
         <option value="$PROJECT_DIR$/app/consumer.php" />
+        <option value="$PROJECT_DIR$/src/QueueManager.php" />
       </list>
     </option>
   </component>
@@ -378,18 +378,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueManager.php">
+    <entry file="file://$PROJECT_DIR$/app/consumer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1984">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="880">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/consumer.php">
+    <entry file="file://$PROJECT_DIR$/src/QueueManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49069002" vertical-offset="0" max-vertical-offset="913">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26396495" vertical-offset="303" max-vertical-offset="1984">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
         </state>
       </provider>
